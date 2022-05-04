@@ -1,0 +1,215 @@
+.feature {
+  max-width: 100%;
+  display: flex;
+  gap: 10rem;
+  padding: 4rem 0;
+
+  img {
+    width: 100%;
+  }
+
+  &__left {
+    width: 50%;
+  }
+
+  &__right {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: "Prata", serif;
+    color: $color-white;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+    color: $color-grey-dark;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .feature {
+    max-width: 100%;
+    display: inline-block;
+    gap: 0;
+    padding: 2rem 0;
+
+    &__left {
+      width: 100%;
+    }
+
+    &__right {
+      width: 100%;
+      margin-top: 3rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 100;
+    }
+
+    p {
+      font-size: 2rem;
+      font-weight: 100;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .feature {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.section-feature-announce {
+  background-color: #222831;
+}
+.announce {
+  max-width: 100%;
+  display: flex;
+  gap: 10rem;
+  padding: 4rem 0;
+
+  &__left {
+    width: 50%;
+  }
+
+  &__right {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: "Prata", serif;
+    color: $color-white;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+    color: $color-grey-dark;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .announce {
+    max-width: 100%;
+    display: inline-block;
+    gap: 0;
+    padding: 2rem 0;
+    margin: 0 4rem;
+
+    &__left {
+      width: 100%;
+    }
+
+    &__right {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .announce {
+    max-width: 100%;
+    display: inline-block;
+    gap: 0;
+    padding: 1rem 0;
+    margin: 0 2rem;
+
+    h1 {
+      font-size: 2.3rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.interest {
+  max-width: 100%;
+  display: flex;
+  gap: 10rem;
+  padding: 4rem 0;
+
+  &__left {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: "Prata", serif;
+    color: $color-white;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+    color: $color-grey-dark;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .interest {
+    max-width: 100%;
+    display: inline-block;
+    gap: 0;
+    padding: 2rem 0;
+    margin: 0 4rem;
+
+    &__left {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 100;
+      font-family: "Prata", serif;
+      color: $color-white;
+    }
+
+    p {
+      font-size: 2rem;
+      font-weight: 100;
+      font-family: "Inter", sans-serif;
+      color: $color-grey-dark;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .interest {
+    max-width: 100%;
+    display: inline-block;
+    gap: 0;
+    padding: 1.5rem 0;
+    margin: 0 3rem;
+
+    &__left {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2.3rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}

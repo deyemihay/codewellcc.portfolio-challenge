@@ -1,0 +1,59 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__ham {
+    font-size: 4rem;
+    color: $color-white;
+    display: none;
+  }
+
+  @media screen and (max-width: 900px) {
+    &__ham {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    &__ham {
+      font-size: 2rem;
+      color: $color-white;
+    }
+  }
+
+  .logo {
+    &__name {
+      color: $color-white;
+      font-family: "Prata", serif;
+      font-size: 2rem;
+
+      font-weight: lighter;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .logo {
+      &__name {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  &__items {
+    margin: 0 2rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    &__items {
+      display: none;
+    }
+  }
+
+  &__link {
+    color: $color-grey-dark;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 0 2.5rem;
+  }
+}

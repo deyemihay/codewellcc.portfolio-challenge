@@ -1,0 +1,46 @@
+.onlyButton__nav,
+.onlyButton__interest {
+  background-color: $color-yellow;
+  border: none;
+  padding: 1.5rem 3rem;
+  font-size: 1.8rem;
+  font-family: "Prata", serif;
+  text-decoration: none;
+  transition: all 0.2s;
+  color: $color-black-button;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($color-white, 0.2);
+
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba($color-white, 0.2);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .onlyButton__nav {
+    display: none;
+  }
+
+  .onlyButton__interest {
+    padding: 1.2rem 2rem;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .onlyButton__interest {
+    padding: 1.1rem 1.8rem;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+  }
+}

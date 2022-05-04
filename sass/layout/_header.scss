@@ -1,0 +1,69 @@
+.header {
+  &__message {
+    width: 60%;
+
+    &-primary {
+      font-size: 6rem;
+      font-family: "Prata", serif;
+      color: $color-white;
+    }
+
+    &-secondary {
+      font-size: 2.2rem;
+      font-family: "Inter", sans-serif;
+      color: $color-grey-dark;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    &__message {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    &__message {
+      width: 100%;
+
+      &-primary {
+        font-size: 4rem;
+      }
+
+      &-secondary {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  &__clients {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(6, auto);
+  }
+
+  @media screen and (max-width: 900px) {
+    &__clients {
+      gap: 2rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column: auto;
+      justify-items: center;
+    }
+
+    .margin-top-big {
+      margin-top: 6rem !important;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    &__clients {
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column: auto;
+      justify-items: center;
+    }
+  }
+
+  .margin-top-big {
+    margin-top: 5rem !important;
+  }
+}

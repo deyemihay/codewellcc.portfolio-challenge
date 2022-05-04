@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  //This defines what 1rem is
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+  box-sizing: border-box;
+  // padding: 5rem 30rem;
+  background-color: #000;
+}
+
+.container {
+  width: 70vw;
+  margin: 5rem auto 0;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 90vw;
+    margin: 2rem auto 0;
+  }
+}

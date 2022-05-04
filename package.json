@@ -1,0 +1,14 @@
+{
+  "name": "developer-portfolio-starter-files",
+  "version": "1.0.0",
+  "description": "Codewell Challenge",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Adeyemi Akintunde",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
