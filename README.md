@@ -1,3 +1,7 @@
+#Link to site preview:
+
+https://deyemihay.github.io/codewellcc.portfolio-challenge/
+
 
 # Welcome to Codewell! 👋
 
